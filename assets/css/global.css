@@ -1,0 +1,25 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box; /*Considerar tudo como tamanho total, margin, border e padding*/
+}
+
+/* Técnica Mobile First - 1º Mobile e depois estilo para página grande
+reescreve muito menos */
+body {
+    background-color: #f6f8fc;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+    }
+}
