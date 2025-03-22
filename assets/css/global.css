@@ -44,3 +44,23 @@ body {
 .escondida{
     display: none;
 }
+
+@media screen and (max-width: 380px) {
+    .info-box {
+        width: 75%;
+    }
+    .info-box img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .info-box {
+        width: 75%;
+    }
+    .info-box img{
+        width: 100%;
+    }
+    
+}
