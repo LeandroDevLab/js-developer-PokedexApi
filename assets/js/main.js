@@ -2,7 +2,7 @@ const pokemonList = document.getElementById('pokemonList') /*pega o valor contid
 const loadMoreButton = document.getElementById('loadMoreButton')
 
 /* definindo um máximo de carregamento */
-/*const maxRecords = 151  // retirando o limite máximo!*/
+const maxRecords = 151  
 const limit = 5
 let offset = 0
 
